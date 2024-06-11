@@ -116,7 +116,7 @@ Todo navegador tem um **depurador** que pode ser acessado pelo atalho F12, é um
     x = "Jao"    // x é uma string
     x = true     // x é um valor logico
     x = null     // x é indefinido
-<br> - Nomes de variaveis
+<br> Nomes de variaveis
 -
   - Devem começar com letra, depois letras, numeros e underlaine `_`;
   - Atribuição de valores, dados as variaveis se faz com sinal de iguadade `=`;
@@ -185,6 +185,14 @@ Exemplo:
 Pratica
 -
 
-Exemplo: 
+Exemplo2:<br> 
 Faça um programa que leia dois valores númericos, e calcule e exiba a sua média aritmética.
 
+<br>
+
+Exemplo3:<br>
+Faça um algoritmo que leia a base e a altura de um triângulo. Em seguida calcule a sua área e imprima os seguintes valores: `base`, `altura` e `área`.
+
+<br>
+
+Exemplo4:<br>
