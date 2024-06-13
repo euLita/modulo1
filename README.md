@@ -187,12 +187,16 @@ Pratica
 
 Exemplo2:<br> 
 Faça um programa que leia dois valores númericos, e calcule e exiba a sua média aritmética.
+- - `ParseInt` função que analisa argumento 'String' e retorna  um valor númerico inteiro;
+- - `ParseFloat`função que analisa argumento 'String' e retorna  um número de ponto flutuante, ou seja, retorna valores decimais;
+- - usar o operador unário `+` antes do prompt também é uma opção;
 
 <br>
 
 Exemplo3:<br>
 Faça um algoritmo que leia a base e a altura de um triângulo. Em seguida calcule a sua área e imprima os seguintes valores: `base`, `altura` e `área`.
-
+- - conceito de área: multiplicação de base `*` altura `/` por 2;
 <br>
 
 Exemplo4:<br>
+Construa um algoritmo para ler dois números. Em seguida, calcule a soma`+`, a subtração`-`, a multiplicação`*` e a divisão`/` desses números, armazenando os resultados em outras variáveis. Imprimir os dados iniciais e os resultados.
