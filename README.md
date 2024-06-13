@@ -200,3 +200,9 @@ Faça um algoritmo que leia a base e a altura de um triângulo. Em seguida calcu
 
 Exemplo4:<br>
 Construa um algoritmo para ler dois números. Em seguida, calcule a soma`+`, a subtração`-`, a multiplicação`*` e a divisão`/` desses números, armazenando os resultados em outras variáveis. Imprimir os dados iniciais e os resultados.
+<br>
+
+Exemplo5:<br>
+Construa um algoritmo para dividir dois números e imprimir o resultado.
+
+
