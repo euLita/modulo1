@@ -1,0 +1,121 @@
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diretório do ambiente
+#.env
+#.env.test
+#.env.production
+#.env.local
+
+# Diretórios de dependências
+node_modules/
+jspm_packages/
+
+# Diretórios de build
+dist/
+build/
+out/
+coverage/
+
+# Diretórios de cache
+.cache/
+.nyc_output/
+.next/
+.svelte-kit/
+
+# Diretórios de IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Diretórios temporários
+tmp/
+temp/
+*.tmp
+*.swp
+
+# Arquivos de lock do gerenciador de pacotes
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Arquivos de configuração do sistema
+.DS_Store
+Thumbs.db
+*.iml
+
+# Configurações locais específicas do sistema
+#*.local
+#*.env.local
+
+# Ignorar chaves SSH
+*.pem
+*.key
+
+# Ignorar arquivos de teste e relatórios
+jest/
+.cypress/
+tests/
+spec/
+
+# Ignorar arquivos de configuração de linter
+.eslintcache
+
+# Arquivos específicos do sistema de versionamento
+#*.rej
+#*.orig
+#*.diff
+
+# Ignorar cache de Yarn
+.yarn/cache/
+.pnp.*
+
+# Arquivos de configuração de TypeScript
+*.tsbuildinfo
+
+# Arquivos de configuração de Storybook
+.storybook/
+
+# Arquivos de configuração de Webpack
+webpack.config.js
+
+# Ignorar caches de ferramentas de build
+.parcel-cache/
+
+# Ignorar pasta .nuxt para projetos Nuxt.js
+.nuxt/
+
+# Ignorar pasta .next para projetos Next.js
+.next/
+
+# Ignorar pasta .vercel para projetos Vercel
+.vercel/
+
+# Ignorar arquivos de logs de PM2
+pm2.log
+pm2-error.log
+
+# Ignorar arquivos de build do Terser
+.terser/
+
+# Ignorar arquivos de build do Rollup
+.rollup.cache
+
+# Ignorar pasta de builds do Expo
+.expo/
+
+# Arquivos de configuração do Husky
+.husky/
+
+# Arquivos de configuração do Lerna
+.lerna/
+
+# Adicione aqui outras entradas específicas do seu projeto ou framework JavaScript
