@@ -205,4 +205,36 @@ Construa um algoritmo para ler dois números. Em seguida, calcule a soma`+`, a s
 Exemplo5:<br>
 Construa um algoritmo para dividir dois números e imprimir o resultado.
 
+<br>
 
+Desafio
+-
+Escreva um algoritmo que leia tres lados quaisquer. Identifique `se` esses lados podem formar um triangulo. `Caso` os lados formem um triangulo, identifique se o triangulo é equilátero, escaleno ou isósceles.
+<br>
+Regra:
+<br> Lados a, b e c;
+- - É triângulo `somente se` a condição for satisfeita: `(a+b)>c e (a+c)>b e (b+c)>a`:
+  - A condição if (a + b > c && a + c > b && b + c > a) verifica se os três lados podem formar um triângulo. Essa verificação é baseada na propriedade matemática de que em um triângulo válido, cada lado deve ser menor do que a soma dos outros dois lados.
+- - Equilátero: `se` todos os lados iguais;
+- - Escaleno: todos os lados diferentes;
+  - exemplo: <br> Verifiquemos as condições de desigualdade:<br>
+𝑎+𝑏=3+6=9<br>
+a+b=3+6=9<br>
+𝑎+𝑐=3+8=11<br>
+a+c=3+8=11<br>
+𝑏+𝑐=6+8=14<br>
+b+c=6+8=14<br>
+Todas as condições são satisfeitas:<br>
+9>8<br>
+9>8<br>
+11>6<br>
+11>6<br>
+14>3<br>
+14>3<br>
+Portanto, 
+3,6<br>
+3,6 e 8<br>
+8 podem formar um triângulo escaleno.
+<br>
+Estes são exemplos de triângulos escalenos, onde todos os lados têm medidas diferentes e satisfazem as condições para formação de um triângulo.
+- - Isósceles: dois lados são iguais;
