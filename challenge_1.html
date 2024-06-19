@@ -1,22 +1,28 @@
-<meta charset="utf-8">
-<script>
-    var a = 1//parseInt(prompt("Inform the side A: "));
-    var b = 2//parseInt(prompt("Inform the side B: "));
-    var c = 3//parseInt(prompt("Inform the side C: "));
 
-    /* é triângulo
-    (a + b) > c e (a + c) > b e (b + c) > a 
-    */
-if ((((a + b) > c || (a + c) > b || (b + c) > a))) {
-    document.write("side A: " + a + "<br>",
-        "side B: " + b + "<br>",
-        "side C: " + c);
-    document.write("<br>", "equilátero"); // todos os lados sao iguais
-} elseif (!(((a + b) > c || (a + c) > b || (b + c) > a))) 
-{
-    document.write("<br>", "escaleno"); // todos os lados sao diferentes 
+<meta charset="utf-8">
+
+<script>
+
+var a = parseInt(prompt("Inform the side A: "));
+var b = parseInt(prompt("Inform the side B: "));
+var c = parseInt(prompt("Inform the side C: "));
+
+/* é triângulo: (a+b)>c e (a+c)>b e (b+c)>a
+(a + b) > c e (a + c) > b e (b + c) > a 
+*/
+
+if (a + b > c && a + c > b && b + c > a) {
+    if (a === b && b === c) {
+        document.write('is equilatero') // todos os lados iguais
+    } 
+    else if (a === b || b === c || c === a) {
+        document.write('is isosceles') // pelo menos dois lados são iguais: a === b || a === c || b === c
+    } 
+    else {
+        document.write('is escaleno') // todos diferentes
+    }
 } else {
-    document.write("<br>", "isósceles"); // dois lados sao iguais
+    document.write('not triangulo')
 }
 
 </script>
