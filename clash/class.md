@@ -19,3 +19,7 @@
 
 ![image](image_3.png)
 
+<br>
+
+1. Apagar o projeto localmente
+   - `rm -rf`
