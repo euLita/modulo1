@@ -1,6 +1,6 @@
 <br>
 
-- - make merge
+- - no replit.com
 
 <br>
 
@@ -8,7 +8,7 @@
 
 <br>
 
-- - erro 1.1
+- - sincronizando as mudanças com o `merge` e o `pull` localmente
 
 <br>
 
@@ -18,14 +18,15 @@
 
 - - Apos o comando anterior(`git pull --no-rebase`), mesclagem padrão para resolver o problema no momento, o `vim` é aberto para adicionarmos como boa pratica, para cooperação na comunidade comentarios a respeito do problema e ou para explicar a razão de fazer o `merge`.
   - use o `Esc` para começar a inserir comentarios e o `Ctrl + O(letra o, de oculos)` para salvar, e `Ctrl + X` para sair.
+  - depois é só continuar de onde parou, com o `git push`
 
 <br>
 
-![image](image_3.png)
+![image](image_8.png)
 
 <br>
 
-1. Apagar o projeto localmente
+- - Apagar o projeto localmente
    - `rm -rf`
 
 <br>
@@ -38,7 +39,8 @@
 
 <br>
 
-- - Alguns comandos:
+=> Alguns comandos práticos
+=
   - criar new file: `touch <seu novo arquivo`;
   - abrir file no seu editor de texto, no caso o meu é o Sublime Text: `Subl <name file>`;
 
@@ -60,4 +62,9 @@
 
 ![image](image_7.png)
 
-`http://localhost:8000`
+`http://localhost:8000` or `localhost:8080`
+
+<br>
+
+- - `killall sublime_text` - esse comando encerra, fecha todos os trabalhos sendo executados no Sublime Text.
+  - se certifique de salvar seu projeto, arquivo no editor antes de executar este comando.
