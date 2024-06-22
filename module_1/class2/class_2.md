@@ -64,3 +64,8 @@ Area = π × 25<br>
 Area ≈ 3.14159 × 25<br>
 Area ≈ 78.54<br>
 Portanto, a área do círculo com raio `5` unidades é aproximadamente 78.5478.54 unidades quadradas.
+<br>
+
+Exemplo5) Suponha que voce faz uma analise mais realista da viagem e conclui que um saldo menor que R$ 3.000  é melhor não viajar. Fique em casa!! Sendo assim, mantém a condição da viagem para Europa, e caso o saldo juntado seja inferior a R$ 10.000 e igual ou superior a R$ 3.000, a viagem acontecerá no Brasil. Tendo todas essas novas informações, faça um programa que leia o saldo e decida a viagem.
+
+
