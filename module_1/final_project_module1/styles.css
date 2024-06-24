@@ -1,6 +1,7 @@
+
 body {
     display: flex; /** especifica que o elemento 'body' usara o modelo de layout flexivel, permitindo utilizar propriedades do Flexbox */
-    justify-content: center; /** alinah horizontalmente o conteudo do 'body' ao centro */
+    justify-content: center; /** alinha horizontalmente o conteudo do 'body' ao centro */
     align-items: center; /** alinha o verticalmente o conteudo do 'body' ao centro */ 
     height: 90vh; /** define altura do 'body' com 90% da janela de visualizaçao (viewport)  */
     background: #f0f0f0; /** define a cor de fundo do 'body', como o cinza claro */
@@ -18,7 +19,7 @@ body {
 .cell { /** estilo para '.cell' */
     width: 100px; /** define a largura das celulas */
     height: 100px; /** define a altura das celulas */
-    background: #fff; /** define a cor de fundo das celulas como branco */
+    background: orange; /** define a cor de fundo das celulas como branco */
     display: flex; /** define que cada celula usara o modelo de layout flexivel */
     align-items: center; /** alinha verticalmente o conteudo das celulas ao centro */
     justify-content: center; /** alinha horizontalmente o conteudo das celulas ao centro */
@@ -27,7 +28,6 @@ body {
 }
 
 .winning-message { 
-    display: none; /** esconte o elemento inicialmente */
     flex-direction: column; /** define a direcao do layout flexivel como coluna (de cima para baixo) */
     align-items: center; /** alinha horizontalmente o conteudo ao centro */
     justify-content: center; /** alinha verticalmente o conteudo ao centro */
@@ -36,4 +36,12 @@ body {
 
 .winning-message button {
     margin-top: 10px; /** adiciona uma margem superior de 10px ao botao dentro do elemento '.winning-message' */
+}
+
+.x {
+    background-color: red;
+}
+
+.O {
+    background-color: green;
 }
