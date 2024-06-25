@@ -2,13 +2,13 @@
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> /* controla o layout em dispositivos moveis */
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo da Velha</title>
-    <link rel="stylesheet" href="styles.css"> /* vincula o arquivo de estilo externo */
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
-    <div id="game"> /* divisao do jogo identificada pelo atributo ID unico chamado game */
-        <div class="cell" data-cell></div> /* cada classe CSS'cell' recebe um atributo personalizado em HTML'data-cell', que representa uma celula do tabuleiro do jogo da velha */
+    <div id="game">
+        <div class="cell" data-cell></div>
         <div class="cell" data-cell></div>
         <div class="cell" data-cell></div>
         <div class="cell" data-cell></div>
@@ -18,11 +18,10 @@
         <div class="cell" data-cell></div>
         <div class="cell" data-cell></div>
     </div>
-    /* representa uma mensagem de vitoria ou derrota, juntamente com botao de reiniciar. */
-    <h2 class="winning-message" id="winningMessage"> /* cabecalho com duas atribuicoes */
-        <!-- <span id="winningMessageText"></span> /* id vazio  */ -->
-        <button id="restartButton">Recomeçar</button> /*  butao de inicar novo jogo */
+    <h2 class="winning-message" id="winningMessage">
+        <span id="winningMessageText"></span>
     </h2>
-    <script src="script.js"></script> /* vincula o arquivo de script externo */
+        <button id="restartButton">Recomeçar</button>
+    <script src="script.js"></script>
 </body>
 </html>
