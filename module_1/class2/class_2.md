@@ -18,7 +18,7 @@ Exemplo de sintaxe:<br>
           }
 <br>
 
-Exemplo1) Crie um algoritmo que leia o nome de uma pessoa, o ano em que essa pessoa nasceu e o ano atual. Calcule  a idade dessa pessoa e imprima uma mensagem caso ela já possua a maioridade(21 anos).<br>
+Exemplo 1) Crie um algoritmo que leia o nome de uma pessoa, o ano em que essa pessoa nasceu e o ano atual. Calcule  a idade dessa pessoa e imprima uma mensagem caso ela já possua a maioridade(21 anos).<br>
 <br>
 
 -> Sintaxe de uma estrutura condicional composta
@@ -31,7 +31,7 @@ Exemplo1) Crie um algoritmo que leia o nome de uma pessoa, o ano em que essa pes
       }
 <br>
 
-Exemplo3) Suponha que o cenário financeiro estaja complexo e voce resolve considerar a viagem também pelo Brasil. Sendo assim mantém a condição da viagem para Europa, mas caso o saldo juntado seja inferior a R$ 10.000,00 a viagem será feita dentro do Brasil. Faça um programa que leia o saldo e decida a viagem.
+Exemplo 3) Suponha que o cenário financeiro estaja complexo e voce resolve considerar a viagem também pelo Brasil. Sendo assim mantém a condição da viagem para Europa, mas caso o saldo juntado seja inferior a R$ 10.000,00 a viagem será feita dentro do Brasil. Faça um programa que leia o saldo e decida a viagem.
 <br>
 
       if (saldo >= 1000) {
@@ -41,7 +41,7 @@ Exemplo3) Suponha que o cenário financeiro estaja complexo e voce resolve consi
       }
 <br>
 
-Exemplo4) Faça um algoritmo para calcular a área de um círculo. O valor do raio deve ser lido pelo program e deve ser positivo.
+Exemplo 4) Faça um algoritmo para calcular a área de um círculo. O valor do raio deve ser lido pelo program e deve ser positivo.
 <br>
 
 - - Para calcular a area de um circulo, você utiliza a formula:<br>
@@ -66,6 +66,19 @@ Area ≈ 78.54<br>
 Portanto, a área do círculo com raio `5` unidades é aproximadamente 78.5478.54 unidades quadradas.
 <br>
 
-Exemplo5) Suponha que voce faz uma analise mais realista da viagem e conclui que um saldo menor que R$ 3.000  é melhor não viajar. Fique em casa!! Sendo assim, mantém a condição da viagem para Europa, e caso o saldo juntado seja inferior a R$ 10.000 e igual ou superior a R$ 3.000, a viagem acontecerá no Brasil. Tendo todas essas novas informações, faça um programa que leia o saldo e decida a viagem.
+Exemplo 5) Suponha que voce faz uma analise mais realista da viagem e conclui que um saldo menor que R$ 3.000  é melhor não viajar. Fique em casa!! Sendo assim, mantém a condição da viagem para Europa, e caso o saldo juntado seja inferior a R$ 10.000 e igual ou superior a R$ 3.000, a viagem acontecerá no Brasil. Tendo todas essas novas informações, faça um programa que leia o saldo e decida a viagem.
 
+<br>
 
+Estrutura Condicional switch-case
+-
+
+Comando de alternativa de multipla escolha;
+- - para cada caso um tipo de resposta, um bloco de resposta a ser atendida;
+  - Sintaxe geral:
+  - `switch` é uma  espressao de selecao que sera avalida;
+  - para cada caso digitado;
+  - lista de comando e um `breack`, para parar, stop no codigo;
+<br>
+
+Exemplo 6) Um determinado clube de futebol pretende classificar seus atletas em categorias e para isto ele contratou um desenvolvedor para criar um programa que execute esta tarefa. Para isso o clube criou uma tabela que contem a faixa etaria do atleta e sua categoria.
