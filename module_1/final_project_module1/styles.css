@@ -1,6 +1,6 @@
 
 body {
-    display: flex; /** especifica que o elemento 'body' usara o modelo de layout flexivel, permitindo utilizar propriedades do Flexbox */
+    display: flex; 
     justify-content: center;
     align-items: center;
     height: 90vh; 
@@ -11,32 +11,32 @@ body {
 }
 
 #game { 
-    display: grid; /** elemento '#game' usara o modelo de layout de grade */
-    grid-template-columns: repeat(3, 90px); /** cria tres colunas na grade, cada uma com 100px de largura */
-    grid-template-rows: repeat(3, 90px); /** cria tres linhas de grade, cada com 100px de altura */
-    gap: 10px; /** define espacamento de 5px entre as celulas da grade */
+    display: grid; 
+    grid-template-columns: repeat(3, 90px);
+    grid-template-rows: repeat(3, 90px);
+    gap: 10px;
 }
 
-.cell { /** estilo para celula '.cell' */
+.cell {
     width: 90px; 
     height: 90px;
     background: #666666;
     display: flex; 
     align-items: center;
     justify-content: center;
-    font-size: 2em; /** define o tamanho da fonte do conteudo das celulas com 2em ou 32px */
-    cursor: pointer; /** define o cursor como uma maozinha ao passar o mouse sobre as celulas indicando que eles sao clicaveis */
+    font-size: 2em;
+    cursor: pointer;
 }
 
 .winning-message { 
-    flex-direction: column; /** define a direcao do layout flexivel como coluna (de cima para baixo) */
-    align-items: center; /** alinha horizontalmente o conteudo ao centro */
-    justify-content: center; /** alinha verticalmente o conteudo ao centro */
-    text-align: center; /** alinha o texto no centro do elemento */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .winning-message button {
-    margin-top: 20px; /** adiciona uma margem superior de 10px ao botao dentro do elemento '.winning-message' */
+    margin-top: 20px;
 }
 
 .x {
