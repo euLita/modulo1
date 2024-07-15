@@ -68,3 +68,20 @@
 
 - - `killall sublime_text` - esse comando encerra, fecha todos os trabalhos sendo executados no Sublime Text.
   - se certifique de salvar seu projeto, arquivo no editor antes de executar este comando.
+
+<br>
+
+<br>
+
+- - Adicionado o arquivo `node_modules` no `.gitignore` depois de já ter subido anteriormente, versionado.
+  - depois de ter adicionado no `.gitignore` insira os seguintes comandos no terminal:
+
+          git rm -r --cached node_modules
+
+<br> 
+
+        git commit -m "Remove node_modules from version control"
+
+<br>
+
+        git push
