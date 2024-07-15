@@ -4,10 +4,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 90vh; 
-    background: #f0f0f0; 
+    background: #d4d0d0; 
     margin: 0; 
     font-family: Arial, sans-serif; 
-    font-family: 'Courier New', Courier, monospace; 
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 20px 20px 20px 10px rgb(63, 63, 60);
 }
 
 #game { 
@@ -20,7 +21,7 @@ body {
 .cell {
     width: 90px; 
     height: 90px;
-    background: #666666;
+    background: #65596e;
     display: flex; 
     align-items: center;
     justify-content: center;
@@ -37,10 +38,12 @@ body {
 
 .winning-message button {
     margin-top: 20px;
+    
 }
 
 .x {
     background-color: red;
+    image-rendering: auto;
 }
 
 .O {
