@@ -120,3 +120,4 @@ pm2-error.log
 
 # Adicione aqui outras entradas específicas do seu projeto ou framework JavaScript
 node_modules/
+*.json
