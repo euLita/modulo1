@@ -119,3 +119,4 @@ pm2-error.log
 .lerna/
 
 # Adicione aqui outras entradas específicas do seu projeto ou framework JavaScript
+node_modules/
