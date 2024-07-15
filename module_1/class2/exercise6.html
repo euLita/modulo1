@@ -1,0 +1,47 @@
+
+<meta charset="utf-8">
+<script >
+
+var name  = prompt(" nome : ");
+var  idade  = +prompt(" idade: ");
+var categoria ; 
+
+switch (idade) {
+case 5:
+case 6: 
+case 7: 
+case 8:
+case 9:
+case 10:
+		categoria = "infantil";
+		break;
+case 11:
+case 12: 
+case 13: 
+case 14:
+case 15:
+		categoria = "juvenil";
+		break;	
+case 16:
+case 17: 
+case 18: 
+case 19:
+case 20:
+		categoria = "junior";
+		break;	
+case 21:
+case 22: 
+case 23: 
+case 24:
+case 25:
+		categoria = "profissional";
+		break;
+default:
+		categoria = "invalid";
+		break;	
+}
+
+document.write(" nome: "+ name  + "<br>");
+document.write(" categoria: " + categoria );
+
+</script>

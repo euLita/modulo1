@@ -1,4 +1,9 @@
 run = ["echo", "View the Markdown preview tab on the right"]
+modules = ["nodejs-20", "python-3.10"]
 
 [nix]
 channel = "stable-22_11"
+
+[[ports]]
+localPort = 8000
+externalPort = 80
