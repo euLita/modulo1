@@ -82,3 +82,18 @@ Comando de alternativa de multipla escolha;
 <br>
 
 Exemplo 6) Um determinado clube de futebol pretende classificar seus atletas em categorias e para isto ele contratou um desenvolvedor para criar um programa que execute esta tarefa. Para isso o clube criou uma tabela que contem a faixa etaria do atleta e sua categoria.
+
+------
+
+Atividades
+-
+<br>
+1) Escreva um programa que leia um numero inteiro. Se o numero lido for positivo,, escreva uma mensagem indicando se ele é par ou ímpar. Se o numero for negativo, escreva a seguinte mensagem "Este numero não é positivo".
+<br> <br> 2) Faça um algoritmo que receba o valor do salario de uma pessoa e o valor de um financiamento pretendido. Caso o financiamento seja menor ou igual a 5 vezes o salario da pessoa, o algoritmo devera escrever "Financiamento Concedido"; senão, ele devera escrver "Financiamento Negado". Independente de conceder ou nao o financiamento, o algoritmo escrevera depois a frase "Obrigado por nos consultar.". <br> <br> 3) Escreva um algoritmo que calcule a media de um aluno numa dada disciplina e imprima o resultado. `Regra:` Durante o semestre o aluno faz 3 avaliações com notas de 0 a 10. É considerado aprovado, o aluno que consegue nota igual ou superior a 7. Se este ficar com nota menor que 7 e maior ou igual a 5, sera considerado de recuperaçao. No entanto, se a nota for abaixo de 5, o aluno sera considerado reprovado e devera repetir o semestre. <br> <br> 4) Escreva o algoritmo "Programa Solitario". O doador deve clicar nas opçoes (mostradas abaixo) para efetuar a sua doação. Imprima o resultado na tela com o valor da doação e uma mensagem de agradecimento. Utilize a estrutura `Switch...Case`. <br> [1] para doar R$ 10 <br> [2] para doar R$ 25 <br> [3] para doar R$ 50 <br> [4] para doar outros valores <br> [5] para cancelar <br> <br> 5) Escreva o algoritmo que calcule o IMC de uma pessoa e imprima a situação em que ela se encontra. `Regra:` IMC = Massa / Altura² <br>
+
+![image](image_2.png)
+* (maior ou igua a 40 ....)
+
+<br> <br>
+
+
