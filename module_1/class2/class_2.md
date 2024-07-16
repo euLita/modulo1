@@ -88,12 +88,49 @@ Exemplo 6) Um determinado clube de futebol pretende classificar seus atletas em 
 Atividades
 -
 <br>
-1) Escreva um programa que leia um numero inteiro. Se o numero lido for positivo,, escreva uma mensagem indicando se ele é par ou ímpar. Se o numero for negativo, escreva a seguinte mensagem "Este numero não é positivo".
-<br> <br> 2) Faça um algoritmo que receba o valor do salario de uma pessoa e o valor de um financiamento pretendido. Caso o financiamento seja menor ou igual a 5 vezes o salario da pessoa, o algoritmo devera escrever "Financiamento Concedido"; senão, ele devera escrver "Financiamento Negado". Independente de conceder ou nao o financiamento, o algoritmo escrevera depois a frase "Obrigado por nos consultar.". <br> <br> 3) Escreva um algoritmo que calcule a media de um aluno numa dada disciplina e imprima o resultado. `Regra:` Durante o semestre o aluno faz 3 avaliações com notas de 0 a 10. É considerado aprovado, o aluno que consegue nota igual ou superior a 7. Se este ficar com nota menor que 7 e maior ou igual a 5, sera considerado de recuperaçao. No entanto, se a nota for abaixo de 5, o aluno sera considerado reprovado e devera repetir o semestre. <br> <br> 4) Escreva o algoritmo "Programa Solitario". O doador deve clicar nas opçoes (mostradas abaixo) para efetuar a sua doação. Imprima o resultado na tela com o valor da doação e uma mensagem de agradecimento. Utilize a estrutura `Switch...Case`. <br> [1] para doar R$ 10 <br> [2] para doar R$ 25 <br> [3] para doar R$ 50 <br> [4] para doar outros valores <br> [5] para cancelar <br> <br> 5) Escreva o algoritmo que calcule o IMC de uma pessoa e imprima a situação em que ela se encontra. `Regra:` IMC = Massa / Altura² <br>
+
+1) Escreva um programa que leia um numero inteiro. Se o numero lido for positivo, escreva uma mensagem indicando se ele é par ou ímpar. Se o numero for negativo, escreva a seguinte mensagem "Este numero não é positivo".
+- _Um número inteiro positivo é um `número que é maior que zero e não possui partes decimais`. Exemplos incluem 1, 2, 3, 4, 5, e assim por diante._
+  - exemplo de comando:
+
+        num > 0
+
+- _Um número inteiro positivo par é um `número inteiro que é maior que zero, não possui partes decimais e é divisível por 2`. Exemplos de números inteiros positivos pares incluem 2, 4, 6, 8, 10, e assim por diante._
+  - exemplo de comando para verificar se é par:
+
+        num % 2 === 0
+
+  - exemplo de comando para verificar se é ímpar:
+
+        num % 2 !== 0
+
+<br> 
+
+2) Faça um algoritmo que receba o valor do salario de uma pessoa e o valor de um financiamento pretendido. Caso o financiamento seja menor ou igual a 5 vezes o salario da pessoa, o algoritmo devera escrever "Financiamento Concedido"; senão, ele devera escrver "Financiamento Negado". Independente de conceder ou nao o financiamento, o algoritmo escrevera depois a frase "Obrigado por nos consultar.". 
+
+<br>
+
+3) Escreva um algoritmo que calcule a media de um aluno numa dada disciplina e imprima o resultado. `Regra:` Durante o semestre o aluno faz 3 avaliações com notas de 0 a 10. É considerado aprovado, o aluno que consegue nota igual ou superior a 7. Se este ficar com nota menor que 7 e maior ou igual a 5, sera considerado de recuperaçao. No entanto, se a nota for abaixo de 5, o aluno sera considerado reprovado e devera repetir o semestre.
+
+<br>
+
+4) Escreva o algoritmo "Programa Solitario". O doador deve clicar nas opçoes (mostradas abaixo) para efetuar a sua doação. Imprima o resultado na tela com o valor da doação e uma mensagem de agradecimento. Utilize a estrutura `Switch...Case`. <br> [1] para doar R$ 10 <br> [2] para doar R$ 25 <br> [3] para doar R$ 50 <br> [4] para doar outros valores <br> [5] para cancelar.
+
+<br>
+
+5) Escreva o algoritmo que calcule o IMC de uma pessoa e imprima a situação em que ela se encontra. `Regra:` IMC = Massa / Altura² <br>
 
 ![image](image_2.png)
 * (maior ou igua a 40 ....)
 
-<br> <br>
+<br>
 
+## Challenge: 
+Faça um programa que leia quatro valores I, n1, n2, e n3 são quaisquer valores reais. O programa deve escrever os valores lidos e: <br>
+- se I = 1, escrever os tres valores n1, n2 e n3 em ordem crescente;
+- se I = 2, escrever os tres valores n1, n2 e n3 em ordem decrescente;
+- se I = 3, escrever os tres valores n1, n2 e n3 de forma que o maior valor fique entre os outros dois;
 
+<br>
+
+- se I nao for um dos tres valores acima, imprima uma mensagem indicando este comportamento.
