@@ -95,6 +95,13 @@ Atividades
 
         num > 0
 
+-_Em termos matemáticos, `0` não é estritamente positivo nem negativo, mas `-O` pode ser considerado como uma representação numérica específica   que é menor que `0` em alguns contextos._
+_Para verificar se um número é negativo, incluindo o caso de `-0`, em JavaScript, você pode usar uma simples comparação numérica._
+
+      numero < 0 || (numero === 0 && 1/numero === -Infinity
+
+_Em JavaScript, você pode verificar se um número é `-0` comparando `1/numero` com `-Infinity`. Isso ocorre porque `1/-0` resulta em `-Infinity`, enquanto `1/0` resulta em `Infinity`. Essa verificação é útil para distinguir `-0` de `0`._
+
 - _Um número inteiro positivo par é um `número inteiro que é maior que zero, não possui partes decimais e é divisível por 2`. Exemplos de números inteiros positivos pares incluem 2, 4, 6, 8, 10, e assim por diante._
   - exemplo de comando para verificar se é par:
 
