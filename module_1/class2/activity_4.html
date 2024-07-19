@@ -1,0 +1,29 @@
+<meta charset="utf-8">
+<script >
+
+alert("Solidarity Program.");
+
+var value = +prompt("[1] to donate R$ 10 - [2] to donate R$ 25 - [3] to donate R$ 50 - [4] to donate other amounts - [5] to cancel");
+var donation;
+
+switch(value) {
+case 1:
+	donation = "you donated R$ 10";
+	break;
+case 2:
+	donation = "you donated R$ 25";
+	break;
+case 3:
+	donation = "you donated R$ 50";
+	break;
+case 4:
+	donation = "you donate another amount";
+	break;
+case 5:
+	donation = "you canceled";
+	break;
+} 
+
+document.write(donation + " ======= Thank you very much!!");
+
+</script>
