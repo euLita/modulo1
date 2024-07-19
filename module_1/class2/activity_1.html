@@ -1,14 +1,12 @@
 <meta charset="utf-8">
 <script>
 	var num = +prompt("enter an integer : ");
-	if (num === 0 && 1/num === Infinity ) {
-		if (num % 2 === 0) {
-			document.write("is EVEN")
-		} if (num === 0 && 1/num === Infinity ) {
-			if (num % 2 !== 0) {
-			document.write("is ODD")
-	}
-	} 
+	if (num >= 0 ) {
+		if (num % 2 ===0) {
+		document.write("is EVEN")
+		} else {
+		document.write("is ODD")
+		}
 	} else {
 		document.write("this number is NOT positive")
 	}
