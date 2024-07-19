@@ -1,0 +1,18 @@
+<meta charset="utf-8">
+<script>
+	
+var note = parseFloat(prompt("note :" + "<br>"));
+var average = (note + note) / 2;
+
+if (average >= 7) {
+	document.write("approved");
+} else if (average < 7 && average >= 5 ) {
+	document.write("recovery");
+} else if (average  < 5) {
+	document.write("repproved")
+}
+
+console.log("note -> " + note);
+console.log("average -> " + average);
+
+</script>
