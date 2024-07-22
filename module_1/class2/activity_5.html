@@ -1,27 +1,51 @@
-<<<<<<< HEAD
 <meta charset="utf-8">
 <script >
-	var massa = 39 //parseFloat(prompt("enter massa, ou peso: "));
-	var altura = 1.58 //parseFloat(prompt("enter altura: "));
-	var imc = massa / (altura *altura);
+	var mass = 88 //parseFloat(prompt("enter body mass: "));
+	var height = 1.58 //parseFloat(prompt("enter body height: "));
+	var imc = mass / (height *height);
 
 if (imc < 16) {
 	document.write("your IMC is: " +imc+ " ou seja, 'magreza grave'.");
-} else if (imc >= 16 && imc < 17) {
+	console.log(mass+"/" +height+ "*" +height+ " = " +imc );
+	console.log("IMC ->  "+ imc);
+} 
+else if (imc >= 16 && imc < 17) {
 	document.write("your IMC is: " +imc+ " ou seja, 'magreza moderada'.");
+	console.log(mass+"/" +height+ "*" +height+ " = " +imc );
+	console.log("IMC ->  "+ imc);
+} 
+else if (imc  >= 17 &&  imc < 18.5) {
+	document.write("your IMC is: " +imc+ " ou seja, 'magreza leve'.");
+	console.log(mass+"/" +height+ "*" +height+ " = " +imc );
+	console.log("IMC ->  "+ imc);
+} 
+else if (imc >= 18.5 && imc < 25) {
+	document.write("your IMC is: " +imc+ " ou seja, 'saudavel'.");
+	console.log(mass+"/" +height+ "*" +height+ " = " +imc );
+	console.log("IMC ->  "+ imc);
+} 
+else if (imc >=  25 && imc < 30) {
+	document.write("your IMC is: " +imc+ " ou seja, 'sobrepeso'.");
+	console.log(mass+"/" +height+ "*" +height+ " = " +imc );
+	console.log("IMC ->  "+ imc);
+} 
+else if (imc >= 30 && imc  < 35) {
+	document.write("your IMC is: " +imc+ " ou seja, 'obesidade grau I'.");
+	console.log(mass+"/" +height+ "*" +height+ " = " +imc );
+	console.log("IMC ->  "+ imc);
+} 
+else if (imc >= 35 && imc < 40) {
+	document.write("your IMC is: " +imc+ " ou seja, 'obesidade grau II'.");
+	console.log(mass+"/" +height+ "*" +height+ " = " +imc );
+	console.log("IMC ->  "+ imc);
+} 
+else if (imc >= 40) {
+	document.write("your IMC is: " +imc+ " ou seja, 'obesidade grau III'.");
+	console.log(mass+"/" +height+ "*" +height+ " = " +imc );
+	console.log("IMC ->  "+ imc);
+}
+else {
+	document.write("NAN");
 }
 
 </script>
-=======
-<meta charset="utf-8">
-<script>
-    var imc = mass / (height^2);
-    var mass = parseFloat(prompt("enter body mass: "));
-    var height= parseFloat(prompt("enter body height: "));
-
-if () {
-    document.write("");
-}
-
-</script> 
->>>>>>> 8d9dbf1f5b5acae38426043faa8f478864a7b447
