@@ -130,10 +130,45 @@ _Em JavaScript, você pode verificar se um número é `-0` comparando `1/numero`
 ![image](image_2.png)
 * (maior ou igua a 40 ....)
 
+O Índice de Massa Corporal (IMC) é uma medida que relaciona o peso e a altura de uma pessoa. Ele é amplamente utilizado para categorizar o peso de acordo com as seguintes faixas:
+
+1. **Abaixo do peso:** IMC abaixo de 18,5
+2. **Peso normal:** IMC entre 18,5 e 24,9
+3. **Sobrepeso:** IMC entre 25 e 29,9
+4. **Obesidade:** IMC 30 ou superior
+
+Para calcular o IMC, você pode seguir estas etapas:
+
+1. **Obtenha seu peso em quilogramas (kg).**
+2. **Obtenha sua altura em metros (m).**
+3. **Calcule o IMC utilizando a fórmula:**
+
+![image](image_3.png)
+
+Por exemplo, se uma pessoa pesa 70 kg e tem 1,75 m de altura:
+
+![image](image_4.png)
+
+Neste caso, o IMC calculado é aproximadamente 22.86, o que está dentro da faixa de peso normal.
+
+É importante lembrar que o IMC é uma medida simples e rápida, mas não leva em consideração a composição corporal (como músculos versus gordura), nem a distribuição de gordura corporal. Por isso, é sempre bom considerar outras medidas de saúde e consultar um profissional da saúde para uma avaliação mais completa.
 <br>
 
 ## Challenge: 
-Faça um programa que leia quatro valores I, n1, n2, e n3 são quaisquer valores reais. O programa deve escrever os valores lidos e: <br>
+Faça um programa que leia quatro valores I, n1, n2, e n3 são `quaisquer valores reais`. O programa deve escrever os valores lidos e: <br> 
+
+-------
+Valores reais referem-se a qualquer número que pode ser encontrado em uma reta numérica, incluindo números inteiros, decimais e frações. Em outras palavras, são todos os números que não são complexos ou imaginários. Exemplos de valores reais incluem:
+
+- Números inteiros como -3, 0, 7
+- Números decimais como -1.5, 2.718, 10.333
+- Frações como 3/4, -2/5, 1/2
+
+Esses valores podem ser positivos, negativos ou zero, e são representados em uma linha contínua, permitindo que sejam comparados e operados matematicamente de acordo com as regras usuais da aritmética.
+
+<br>
+
+------
 - se I = 1, escrever os tres valores n1, n2 e n3 em ordem crescente;
 - se I = 2, escrever os tres valores n1, n2 e n3 em ordem decrescente;
 - se I = 3, escrever os tres valores n1, n2 e n3 de forma que o maior valor fique entre os outros dois;
