@@ -176,3 +176,37 @@ Esses valores podem ser positivos, negativos ou zero, e são representados em um
 <br>
 
 - se I nao for um dos tres valores acima, imprima uma mensagem indicando este comportamento.
+
+<br>
+
+Dicas
+-
+
+- Funcoes internas do Java Script
+  
+escape - obtem o codigo ASCII de um caracter que não seja alfa-numerico. Ex: `document.write(escape("@"))`.
+
+eval - avalia uma expressao numerica retornando um resultado tambem numerico. Ex: `document.write(eval(10*9*8*7*6*5*4*3*2*))`.
+
+confirm - Mostra uma caixa de dialogo, seguida de um sinal sonoro e os botões `OK`,`CANCEL`. Retorna um valor verdadeiro se o usuario escolher `OK`. Ex: retorno = `confirm("Deseja prosseguir?")`.
+
+parseFloat - converte uma string que representa um number para um number com ponto flutuante. Caso a string não possa ser avaliada, a função retorna zero. Ex: `document.write(parseFloat("parseFloat("-32.465e12"))`.
+
+parseInt - converte uma string que representa um numero em uma base predefinida para base 10. Caso string possua um caracter que não possa ser convertido a operação para, retornando o valor antes do erro. Ex: `parseInt("string", base)`.
+
+-----
+- - A estrutura switch-case (escolha-caso) pode ser aplicada em diversos problemas de lógica e algoritmo. Em relação a essa estrutura pode-se afirmar:
+
+| A estrutura condicional com múltiplas escolhas é conhecida como switch-case e oferece várias alternativas como resposta de acordo com as opções dadas. 
+|-
+
+- - Exemplo de estrutura condicional composta
+
+          if (condição){
+        <ações a serem realizadas se a condição for verdadeira>
+        }else{
+        < ações a serem realizadas se a condição for falsa >   
+        }
+
+
+------
