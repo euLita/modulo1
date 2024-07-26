@@ -10,9 +10,22 @@ Ate a ultima aula os problemas foram resolvidos em uma sequencia de intruções 
 
 Seguia uma sequencia linear de operações.
 
-#### -> Exemplo 1
-
+| Exemplo 1
+|-
 ![image](image.png)
 
 - -  Este codigo não esta dinamico, e seria isustentavel caso o problema exigisse a leitura de notas, media de uma sala de aula com 40 alunos por exemplo.
   -  para resolver isso existe na logica de programação um conjunto de`Estrutura de Repetição` para tornar o algoritmo mais limpo e pratico - `While / do...While / for`.
+
+<br>
+<br>
+
+| Estrutura WHILE - (Enquanto)
+|-
+
+- - sintaxe
+  - `while (expressao logica)` -> condicao (enquanto esta condicao for true a ... `{`
+            `<lista de comandos> }` -> ...sera executada.
+
+| Exemplo 2 <br> Suponha um algoritmo que conte de 0 ate 10. Escreva uma frase quando terminar de contar. <br> 
+|-
