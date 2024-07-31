@@ -27,6 +27,17 @@ Seguia uma sequencia linear de operações.
   - `while (expressao logica)` -> condicao (enquanto esta condicao for true a ... `{`
             `<lista de comandos> }` -> ...sera executada.
 
-| Exemplo 2 <br> Suponha um algoritmo que conte de 0 ate 10. Escreva uma frase quando terminar de contar. <br> ![image](image_2.png)
+| Exemplo 2
 |-
+Suponha um algoritmo que conte de 0 ate 10. Escreva uma frase quando terminar de contar. <br> ![image](image_2.png)
+
 ![image](image_3.png) -> saida do algoritmo no navegador
+
+<br>
+<br>
+
+| Exemplo 3 
+|-
+Suponha um algoritmo que conte de 10 até 0. Escreva uma frase quando terminar de contar.
+![image](image_4.png)
+![image](image_5.png)
