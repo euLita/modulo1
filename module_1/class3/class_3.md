@@ -41,3 +41,10 @@ Suponha um algoritmo que conte de 0 ate 10. Escreva uma frase quando terminar de
 Suponha um algoritmo que conte de 10 até 0. Escreva uma frase quando terminar de contar.
 ![image](image_4.png)
 ![image](image_5.png)
+
+<br>
+<br>
+
+| Exemplo 4 
+|-
+Voce pode criar um algoritmo `mais interativo`. Portanto, escreva um algoritmo que o usuario `digite a quantidade de numeros` que ele deseja somar. Faça com que o programa leia esses numeros e no final `apresente o resultado da soma`.
