@@ -48,3 +48,14 @@ Suponha um algoritmo que conte de 10 até 0. Escreva uma frase quando terminar d
 | Exemplo 4 
 |-
 Voce pode criar um algoritmo `mais interativo`. Portanto, escreva um algoritmo que o usuario `digite a quantidade de numeros` que ele deseja somar. Faça com que o programa leia esses numeros e no final `apresente o resultado da soma`.
+![image](image_6.png)
+![image](image_7.png)
+
+<br>
+<br>
+
+| Exemplo 5 
+|-
+O algoritmo `média dos alunos` pode ser reescrito de uma forma mais `prática`.
+![image](image_8.png)
+![image](image_9.png)
