@@ -96,3 +96,11 @@ Faça um algoritmo que escreva os numeros de `0` a `9`.
 Escreva um algoritmo que leia um dado numero e imprima na tela a sua tabuada.
 ![image](image_13.png)
 ![image](image_14.png)
+
+<br>
+<br>
+
+| Exemplo 8
+|-
+Escreva um algoritmo que _**`leia uma quantidade de numeros`**_ e imprima o resultado informando a quantidade de _**`numeros digitados que sao negativos`**_. Imagina que o usuario escolhe quantos numeros ele deseja digitar.
+![image](image_15.png)
