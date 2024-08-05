@@ -1,0 +1,14 @@
+<meta charset="utf-8">
+<script>
+    var count = 1;
+    var negative = 0;
+    var num = parseInt(prompt(" how many numbers? "));
+    do { // => inicio do laço de repetição
+        var value = parseInt(prompt(" enter ", count, ", value: <br>"));
+        if (value < 0) { // -> laço condicional para entender qual num é negativo
+            negative++; // antes ele era zero agora somou com mais 1, e assim sucessivamente...
+        }
+        count++; // contador era 1 e passou a ser 2...
+    } while (count <= num); // -> analize condicional, o laço continuara acontecendo enquand=to essa expressão for satisfeita
+    document.write(" numbers negatives -> ", negative);
+</script>
