@@ -4,7 +4,7 @@
     var student;
     var count = 1;
     var note1, note2, note3;
-    number = +prompt(" enter with a number: ");
+    number = +prompt(" enter with a number: "); // numero de alunos que sera pedido as 3 notas
     while (count <= number) {
         student = prompt(" your name: ");
         note1 = parseFloat(prompt(" enter note 1: "));
@@ -12,10 +12,15 @@
         note3 = parseFloat(prompt(" enter note 3: "));
         var media = (note1 + note2 + note3) / 3;
         count++; // count = count + 1;
+        console.log(" note 1, 2 e 3 -> ", note1," - ", note2," - ", note3); 
         document.write(student, " your average is: ", media, "<br>");
-        document.write(" your scores ----------- ", "<br>", "<br>");
+        document.write("----------------------------------");
+        document.write(" your scores: ", "<br>", "<br>");
+        document.write("----------------------------------");
         document.write(" note 1 -> ", note1, "<br>", "<br>");
+        document.write("----------------------------------");
         document.write(" note 2 -> ", note2, "<br>", "<br>");
-        document.write(" note 3 -> ", note3);
+        document.write("----------------------------------");
+        document.write(" note 3 -> ", note3, "<br>", "<br>");
     }
 </script>
