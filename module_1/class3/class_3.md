@@ -24,8 +24,11 @@ Seguia uma sequencia linear de operações.
 |-
 
 - - sintaxe
-  - `while (expressao logica)` -> condicao (enquanto esta condicao for true a ... `{`
-            `<lista de comandos> }` -> ...sera executada.
+
+        while (expressao logica)
+        { -> condicao (enquanto esta condicao for true a ...) 
+        <lista de comandos>  -> (...sera executada.)
+        }
 
 | Exemplo 2
 |-
@@ -58,4 +61,29 @@ Voce pode criar um algoritmo `mais interativo`. Portanto, escreva um algoritmo q
 |-
 O algoritmo `média dos alunos` pode ser reescrito de uma forma mais `prática`.
 ![image](image_8.png)
-![image](image_9.png)
+![image](image_10.png)
+
+<br>
+<br>
+
+| DO WHILE 
+|-
+
+- - Todas os comandos são executados, e uma expressao logica é avaliada no final.
+  - a estrutura `do while` significa que ela se repete ate que a avaliaçao da condiçao resulte em `FALSE` ou seja, uma lista de comandos é realizada pelo menos uma vez, e logo apos execução dessa lista de comandos a expressao logica é avaliada, se a condição for `TRUE` o laço continua repetindo e executando a lista de comandos proposto, caso contrario, essa extrutura é paralisada e o fluxo do codigo do programa continua.
+    
+- - sintaxe
+
+        do 
+        {
+        <lista de comandos>
+        } while (expressao logica)
+
+<br>
+<br>
+
+| Exemplo 6
+|-
+Faça um algoritmo que escreva os numeros de `0` a `9`.
+![image](image_11.png)
+![image](image_12.png)
