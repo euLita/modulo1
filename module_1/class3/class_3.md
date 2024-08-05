@@ -87,3 +87,12 @@ O algoritmo `média dos alunos` pode ser reescrito de uma forma mais `prática`.
 Faça um algoritmo que escreva os numeros de `0` a `9`.
 ![image](image_11.png)
 ![image](image_12.png)
+
+<br>
+<br>
+
+| Exemplo 7
+|-
+Escreva um algoritmo que leia um dado numero e imprima na tela a sua tabuada.
+![image](image_13.png)
+![image](image_14.png)
