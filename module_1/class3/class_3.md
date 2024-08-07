@@ -104,3 +104,33 @@ Escreva um algoritmo que leia um dado numero e imprima na tela a sua tabuada.
 |-
 Escreva um algoritmo que _**`leia uma quantidade de numeros`**_ e imprima o resultado informando a quantidade de _**`numeros digitados que sao negativos`**_. Imagina que o usuario escolhe quantos numeros ele deseja digitar.
 ![image](image_15.png)
+
+<br>
+<br>
+
+| LOOP INFINITO
+|-
+
+- - `A diferença básica é a posição de onde é testada a expressão.`
+  - Uma observação importante, a variavel de controle deve ser iniciada fora, caso contrario o seu codigo ficara em um loop infinito.
+
+
+<br>
+<br>
+
+| FOR
+|-
+
+- - sintaxe
+
+        for (contador inicializada; condição de parada;             incremento contador)
+        {
+         <comandos a serem executados>
+        }
+
+<br>
+<br>
+
+| Exemplo 11
+|-
+Suponha um algoritmo que leia e escreva os numeros impares de 1 a 100. `É possivel usar a estrutura **_for_**`.
