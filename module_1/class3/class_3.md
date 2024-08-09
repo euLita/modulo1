@@ -143,3 +143,5 @@ Suponha um algoritmo que leia e escreva os numeros impares de 1 a 100. `É possi
 | Exemplo 12
 |- 
 Escreva um algoritmo que leia 5 números e os classifique como positivo ou negativo. Imprima o resultado.
+![image](image_19.png)
+![image](image_18.png)
