@@ -134,3 +134,12 @@ Escreva um algoritmo que _**`leia uma quantidade de numeros`**_ e imprima o resu
 | Exemplo 11
 |-
 Suponha um algoritmo que leia e escreva os numeros impares de 1 a 100. `É possivel usar a estrutura **_for_**`.
+![image](image_16.png)
+![image](image_17.png)
+
+<br>
+<br>
+
+| Exemplo 12
+|- 
+Escreva um algoritmo que leia 5 números e os classifique como positivo ou negativo. Imprima o resultado.
