@@ -1,0 +1,22 @@
+<meta charset="utf-8">
+<script>
+    /*
+    escreva um algoritmo que o usuario `digite a quantidade de numeros` que
+     ele deseja somar. Faça com que o programa leia esses numeros
+     e no final `apresente o resultado da soma`.
+    */
+    alert(" sum of numbers! ");
+    //var number;
+    var count = 1;
+    var sum = 0;
+    var amount = parseInt(prompt(" enter with number: "));
+
+    while (count <= amount) {
+        console.log(" count -> ", count, " amount -> ", amount, "<br>");
+        console.log(" sum -> ", count);
+        var number = parseInt(prompt(" numbers: "));
+        sum = sum + number;
+        count++; // same whi count = count + 1
+    }
+    document.write(" numbers sum -> ", sum);
+</script>

@@ -1,0 +1,12 @@
+<meta charset="utf-8">
+<script>
+    var count = 0;
+    var op;
+    var num = parseInt(prompt(" enter a number from 1 to 9: "));
+    do {
+        op = count * num;
+        document.write("|---", num, " x ", count, " = ", op, "<br>");
+        count++; // count = count + 1;
+        console.log(" count -> ", count);
+    } while (count <= 10);
+</script>
