@@ -17,13 +17,16 @@ case 3:
 	donation = "you donated R$ 50";
 	break;
 case 4:
-	donation = "you donate another amount";
+	donation = prompt("enter with value to donate R$ ");
 	break;
 case 5:
 	donation = "you canceled";
 	break;
+default:
+	donation = 0;
+	break;
 } 
 
-document.write(donation + " ======= Thank you very much!!");
+document.write("R$ ", donation, " ======= Thank you very much!!");
 
 </script>
