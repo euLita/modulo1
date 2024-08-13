@@ -145,3 +145,65 @@ Suponha um algoritmo que leia e escreva os numeros impares de 1 a 100. `É possi
 Escreva um algoritmo que leia 5 números e os classifique como positivo ou negativo. Imprima o resultado.
 ![image](image_19.png)
 ![image](image_18.png)
+
+
+<br>
+<br>
+
+| `ATIVIDADES E DICA`
+|-
+
+<br>
+<br>
+
+| Atividade 1
+|- 
+Faça um algoritmo que leia um dado número e imprima na tela se este é um número primo ou não.
+
+- - Um número inteiro é um número sem parte fracionária ou decimal. Os inteiros incluem:
+  - Números naturais positivos (1, 2, 3, 4, ...);
+  - O zero (0);
+  - Números naturais negativos (-1, -2, -3, -4, ...);
+  - Os inteiros podem ser representados pela letra 𝑍;
+    - Z em matemática e englobam todos os números que não possuem frações ou decimais. Por exemplo:
+      - Positivos: 1, 20, 345;
+      - Negativos: -1, -20, -345;
+      - Zero: 0
+<br>
+<br>
+
+| Atividade 2
+|- 
+Escreva um programa que repita a leitura de uma senha até que ela seja válida. Para cada leitura de senha incorreta informada, escrever a mensagem "Senha invalida" e "Tente novamente". Quando a senha for informada corretamente deve ser impressa a mensagem "Acesso Permitido" e o algoritmo encerrado. Considere que a senha correta é o valor 2023. 
+
+<br>
+<br>
+
+| Atividade 3
+|- 
+Escreva um programa para ler as coordenadas (X,Y) de uma quantidade indeterminada de pontos no sistema cartesiano. Para cada ponto escrever o quadrante a que ele pertence. O algoritmo sera encerrado quando pelo menos uma das duas coordenadas for NULA. Nesta situaçao escreva uma mensagem "Algoritmo Interrompido!!".
+
+<br>
+<br>
+
+| Atividade 4
+|- 
+Uma grande empresa deseja determinar qual de seus produtos tem a preferencia de seus clientes. Escreva um algoritmo para ler o tipo de produto comprado (codificado da seguinte forma:
+1 ProdutoA
+2 ProdutoB
+3 ProdutoC
+4 Fim
+Caso o usuario informe um codigo invalido (fora da caixa de 1 a 4) deve ser solicitado um novo codigo (ate que seja valido). O programa sera encerrado quando o codigo informado for o numero 4. Deve ser escrito a mensagem: "MUITO OBRIGADO" e a quantidade de clientes que compraram cada tipo de produto.
+
+<br>
+<br>
+
+| Atividade 5
+|- 
+ Um funcionario de uma empresa recebe, anualmente, aumento salarial. Sabe-se que: 
+ a) esse funcionario foi contratado em 2018, com salario inicial de R$ 2.000,00;
+ b) em 2019, ele recebeu aumento de 1,5%, sobre o seu salario inicial;
+ c) a partir de 2020 (inclusive), os aumentos salariais sempre corresponderam ao dobro do percentual do ano anterior. Faça um programa que determine o salario desse funcionario no ano de 2023. Apresente todos os valores.
+
+
+  
