@@ -85,3 +85,28 @@
 <br>
 
         git push
+
+## => Listar os arquivos com a extensão desejada:
+
+      git ls-files | grep '\.log$'
+
+- - `git ls-files`: Lista todos os arquivos rastreados pelo Git.
+  - `grep '\.ext$`: Filtra os arquivos com a extensão `.ext`.
+
+## => Remover os arquivos com a extensão desejada:
+
+      git ls-files | grep '\.log$' | xargs git rm
+
+- - `xargs git rm`: Passa a lista de arquivos filtrados para o comando `git rm`, que remove esses arquivos do repositório.
+
+## => Listar e Mover os Arquivos:
+
+      git ls-files | grep '\.log$' | xargs -I{} git mv {} archive/
+
+- - `xargs -I{} git mv {} archive/`: Usa xargs para passar cada arquivo para o comando `git mv`, movendo cada arquivo para o diretório archive.
+
+![image](image_9.png)
+
+> outra maneira
+
+      mv *.txt destino/
