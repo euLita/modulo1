@@ -1,22 +1,22 @@
 <meta charset="utf-8">
-<script >
-	/*
-	Faça um Algoritmo que leia um dado número e imprima na tela se este é um número primo ou não.
-	- Um número primo é um número inteiro maior que 1 que só pode ser dividido por 1 e por ele mesmo, sem deixar resto. 
-	- Exemplos de números primos são 2, 3, 5, 7, 11 e 13. 
-	- O número 2 é o único número primo par, pois todos os outros números pares podem ser divididos por 2.
-	*/
+<script>
 
 let num = parseInt(prompt(" enter with number: "));
+// verifica se num é menor ou igual a 1
 if (num  <= 1) {
 	document.write("  is prime! ");
 }
-if (num == 2) {
+// verifica se num é 2 ou 3
+if (num <=3 || num <= 2) {
 	document.write("  is prime! ");
 }
-if (num % 2 == 0) {
+// eliminar multiplos de 2 e 3 
+if (num % 2 == 0 || num % 3 == 0) {
 	document.write("  is prime! ");
 } else {
-	document.write(" nan ");
+	document.write("  is NOT prime! ");
 }
+
+console.log(num);
+
 </script>
