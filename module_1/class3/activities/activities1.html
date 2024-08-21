@@ -2,12 +2,22 @@
 <script>
 
 let num = parseInt(prompt(" enter with number: "));
-// verifica se num é menor ou igual a 1
-if (num  <= 1) {
-	document.write("  is prime! ");
-}
+
+function isPrime(num) {
+        if (num <= 1) return false;
+        if (num <= 3) return true;
+        if (num % 2 === 0 || num % 3 === 0) return false;
+        for (let i = 5; i * i <= num; i += 6) {
+            if (num % i === 0 || num % (i + 2) === 0) return false;
+        }
+        return true;
+    }
+
+
+/* verifica se num é menor ou igual a 1
+
 // verifica se num é 2 ou 3
-if (num <=3 || num <= 2) {
+if (num ==3 || num == 2) {
 	document.write("  is prime! ");
 }
 // eliminar multiplos de 2 e 3 
@@ -16,7 +26,7 @@ if (num % 2 == 0 || num % 3 == 0) {
 } else {
 	document.write("  is NOT prime! ");
 }
-
+*/
 console.log(num);
 
 </script>
