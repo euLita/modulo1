@@ -1,0 +1,40 @@
+<meta charset="utf-8">
+<script >
+	let s  = null;
+	/*
+	do{
+		if(s != null ){
+			console.log("Senha incorreta")
+		}
+		s = prompt("informe senha: ");
+		if (s == "2023") {
+			console.log("Acesso permitido")
+		}
+	} while (s == null || s != "2023");
+
+
+	do{
+		s = prompt("informe senha: "); // null ""
+		if (s == "2023") {
+			console.log("Acesso permitido")
+		} else{
+			console.log("Senha incorreta")
+		}
+	} while ( s != "2023");
+
+*/
+
+	do{
+		if(s == null ){
+			s = prompt("informe senha:")
+		}
+		if (s != null && s != '2023') {
+			s = prompt("Senha incorreta, digite-a novamente");
+		}
+		if (s == "2023") {
+			alert("Acesso permitido");
+			break;
+		} 
+	} while ( s == null || s != "2023" );
+
+</script>
