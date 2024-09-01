@@ -1,32 +1,26 @@
 <meta charset="utf-8">
 <script>
-
 let num = parseInt(prompt(" enter with number: "));
-
-function isPrime(num) {
-        if (num <= 1) return false;
-        if (num <= 3) return true;
-        if (num % 2 === 0 || num % 3 === 0) return false;
-        for (let i = 5; i * i <= num; i += 6) {
-            if (num % i === 0 || num % (i + 2) === 0) return false;
-        }
-        return true;
-    }
-
-
-/* verifica se num é menor ou igual a 1
-
-// verifica se num é 2 ou 3
-if (num ==3 || num == 2) {
-	document.write("  is prime! ");
+function isPrime(n) {
+	if (n == 2) {
+		return true;
+	}
+		let c = 2;
+		for (let i = 0; i < n; i++) {
+				if ((n %c) == 0) {
+						return false;
+				} 
+				if (c > (n / 2)) {
+					return true;
+				}
+				c++;
+		}
+		return false;
 }
-// eliminar multiplos de 2 e 3 
-if (num % 2 == 0 || num % 3 == 0) {
-	document.write("  is prime! ");
+console.log(isPrime(num))
+if (isPrime(num)) {
+	console.log(" is prime!!"); 
 } else {
-	document.write("  is NOT prime! ");
+	console.log(" is not prime")
 }
-*/
-console.log(num);
-
 </script>
