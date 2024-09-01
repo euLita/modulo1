@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+<script >
+	let x = [], y = [], interromper = false, i =0;
+	function lerPonto(){
+		let xField = document.getElementById("x");
+        x[i] = xField.value;
+        xField.value = '';
+        let yField = document.getElementById("y");
+        y[i] = yField.value;
+        yField.value = '';
+     	if (x[i] == 0 || y[i] == 0) {
+			document.write("Algoritmo Interrompido!!");
+		} else {
+			document.getElementById('results').innerHTML ="<p>ponto [ "+x[i]+","+ y[i]+"]</p>";
+		}
+        i++;
+	}
+</script>
+x: <input name="x" type="text" id="x" value=""></input>
+<br/>
+y: <input name="y" type="text" id="y" value=""></input>
+<input type="button" value="ler" name="" onclick="lerPonto()"></input>
+<div id="results"></div> 
