@@ -650,7 +650,7 @@ Escreva um programa para ler as coordenadas (X,Y) de uma quantidade indeterminad
 
 | Atividade 4
 |- 
-Uma grande empresa deseja determinar qual de seus produtos tem a preferencia de seus clientes. Escreva um algoritmo para ler o tipo de produto comprado (codificado da seguinte forma:
+Uma grande empresa deseja determinar qual de seus produtos tem a preferencia de seus clientes. Escreva um algoritmo para ler o tipo de produto comprado codificando da seguinte forma:
 1 ProdutoA
 2 ProdutoB
 3 ProdutoC
