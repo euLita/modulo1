@@ -23,5 +23,7 @@ do{
 	} else {
 		console.log("opcao incorreta")
 	} 
-	console.log(opcao)
 } while(opcao != "4");
+for (produto in produtos){
+	console.log(`produto da categoria ${produto}: `, produtos[produto])
+}
