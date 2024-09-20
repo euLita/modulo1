@@ -667,4 +667,44 @@ Caso o usuario informe um codigo invalido (fora da caixa de 1 a 4) deve ser soli
  b) em 2019, ele recebeu aumento de 1,5%, sobre o seu salario inicial;
  c) a partir de 2020 (inclusive), os aumentos salariais sempre corresponderam ao dobro do percentual do ano anterior. Faça um programa que determine o salario desse funcionario no ano de 2023. Apresente todos os valores.
 
+<br>
+<br>
 
+| `TIPOS DE FUNÇÕES`
+|-
+
+<br>
+<br>
+
+Bloco de codigo que podem ser reutilizados em diferentes partes do programa;
+
+No fluxo do codigo a função gera um desvio, quando chamada para resolver aquela pequena parte de bloco do codigo;
+
+- - Quando utilizar esse recurso?
+  - em codigos muitos extensos;
+  - codigo que exige uma repetição;
+
+- - Vantagens
+  - deixa o codigo mais limpo, mais pratico;
+  - reduzem o tamanho do algoritmo;
+  - podem ser chamadas em qualquer ponto;
+
+- - Como definir uma função?
+  - função de declaração(declaration), expressão(expressio n), flecha(arrow), construtora(constructor), geradora(generator);
+  - declaração e expressao são as mais comuns;
+    - toda funão de declaração começa com a palavra reservada `function`.
+    - ela vem seguida do nome da função;
+    - pode conter uma lista de parametros, separadas por virgula e encapsuladas em parenteses;
+    - e ultimo, definir a chave obrigatorio, corpo da função;
+
+
+          function name() {}
+
+Agora, vejamaos uma função com parametros que é opcional;
+
+      function name(parametro1, parametro2) {}
+
+- - Função de declaração:
+  - a diferença da anterior é que atribuimos para uma variavel, onde não se define o nome de uma função e sim o nome da variavel que ira referenciar;
+
+        const name = function(parametro1, parametro2) {}
