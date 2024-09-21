@@ -674,7 +674,6 @@ Caso o usuario informe um codigo invalido (fora da caixa de 1 a 4) deve ser soli
 |-
 
 <br>
-<br>
 
 Bloco de codigo que podem ser reutilizados em diferentes partes do programa;
 
@@ -692,7 +691,7 @@ No fluxo do codigo a função gera um desvio, quando chamada para resolver aquel
 - - Como definir uma função?
   - função de declaração(declaration), expressão(expressio n), flecha(arrow), construtora(constructor), geradora(generator);
   - declaração e expressao são as mais comuns;
-    - toda funão de declaração começa com a palavra reservada `function`.
+    - toda função de declaração começa com a palavra reservada `function`.
     - ela vem seguida do nome da função;
     - pode conter uma lista de parametros, separadas por virgula e encapsuladas em parenteses;
     - e ultimo, definir a chave obrigatorio, corpo da função;
@@ -704,7 +703,9 @@ Agora, vejamaos uma função com parametros que é opcional;
 
       function name(parametro1, parametro2) {}
 
-- - Função de declaração:
+- - Função de expressão:
   - a diferença da anterior é que atribuimos para uma variavel, onde não se define o nome de uma função e sim o nome da variavel que ira referenciar;
 
         const name = function(parametro1, parametro2) {}
+
+....
