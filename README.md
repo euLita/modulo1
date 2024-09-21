@@ -708,4 +708,10 @@ Agora, vejamaos uma função com parametros que é opcional;
 
         const name = function(parametro1, parametro2) {}
 
-....
+<br>
+
+| Exemple 1
+|- 
+Suponha um programa que imprima a idade de algumas pessoas.
+Inicialmente é aplicado uma tag **<br>** de quebra de linha.
+
